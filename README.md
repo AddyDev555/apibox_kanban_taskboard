@@ -1,21 +1,41 @@
-# apibox Kanban Board
+# **Apibox Kanban Board**  
 
-A simple Kanban Task Board built using React and `@hello-pangea/dnd` for drag-and-drop functionality.
+A lightweight and user-friendly **Kanban Task Board** built using **React** and `@hello-pangea/dnd` for smooth **drag-and-drop functionality**. This tool helps you manage tasks efficiently by allowing users to create, move, and track tasks across different stages.  
 
-## Features
-- Add tasks dynamically
-- Drag and drop tasks between columns
-- Persistent task states
+## 🚀 **Features**  
 
-## Installation and Running Locally
+✅ **Dynamic Task Management** – Add, update, and remove tasks easily.  
+✅ **Drag-and-Drop Support** – Move tasks between columns effortlessly.  
+✅ **Responsive UI** – Optimized for desktop and mobile.  
+✅ **Column Customization** – Predefined columns (`To Do`, `In Progress`, `Done`).  
+✅ **Lightweight & Fast** – Built with React for smooth performance.  
 
-### Prerequisites
-Ensure you have **Node.js** installed. You can check by running:
-```sh
-node -v
-npm -v
-git clone https://github.com/AddyDev555/apibox_kanban_taskboard.git
-npm install
-install packages from requirements.txt
-npm start
+## 🛠 **Installation & Running Locally**  
 
+### **Prerequisites**  
+Ensure you have the following installed:  
+- **Node.js** *(v14 or later recommended)*  
+  ```sh
+  node -v
+
+1️⃣ Clone the Repository
+    ```sh
+    git clone https://github.com/AddyDev555/apibox_kanban_taskboard.git
+    cd apibox_kanban_taskboard
+
+
+2️⃣ Install Dependencies
+Install all required npm packages:
+    ```sh
+        npm install
+
+Additionally, install any extra dependencies mentioned in requirements.txt (if applicable).
+    ```sh
+        cat requirements.txt | xargs npm install
+
+3️⃣ Run the Application
+Start the development server:
+    ```sh
+    npm start
+    This will launch the Kanban Board in your default browser at:
+    🔗 http://localhost:3000
