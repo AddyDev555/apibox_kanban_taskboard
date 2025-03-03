@@ -2,6 +2,8 @@
 
 A streamlined and intuitive **Kanban Task Board** built with **React** and `@hello-pangea/dnd` for fluid **drag-and-drop task management**. This application empowers you to organize your workflow effectively by creating, relocating, and monitoring tasks across distinct stages.
 
+![Apibox Kanban Board Screenshot]("/web.png")
+
 ## ✨ **Key Features**
 
 * **Effortless Task Management:** Seamlessly add, modify, and delete tasks.
